@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato & display=swap');
+@import url('https://fonts.googleapis.com/css2? família= Lato:ital,wght@0,400;1,300 & display=swap');
+
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.menu_navegacao {
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(222,234,185);
+}
+
+ul, li {
+    display: inline-block;
+    margin-left: 50px;
+    font-family: Lato;
+    cursor: pointer;
+}
+
+.img_logo {
+    width: 100px;
+    height: 100px;
+}
+
+.conteudo_principal {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+h1, h2, h3 {
+    font-family: Lato;
+}
+
+h2 {
+    font-weight: 300;
+
+}
+
+h3 {
+    background-color: rgb(0,102,51);
+    border-radius: 4px;
+    padding: 4px;
+    margin: 8px 0 8px;
+    color: white;
+}
+
+.meuH2 {
+    color: rgb(79,167,176);
+    display:flex;
+    justify-content:center;
+}
+
+.videos {
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.redesSociais {
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.menu_navegacao2 {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0,102,51);
+    align-items: center;
+    font-family: Rubik;  
+    width: 100%;
+}
+
+.li2 {
+    color: white;
+}
+
+
+
